@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
   <head>
@@ -6,10 +6,14 @@
     <title>form without semantic html </title>
 
     <head>
+
     <body>
+
       <h1> form without semantic html</h1>
+
       <form>
-      <label for="fullname">fullname: </label>
+
+      <label for="fullname">Fullname: </label>
       <input type="text" id="Fullname" name="fullname" required>
 
        <label for="email">Email: </label>
