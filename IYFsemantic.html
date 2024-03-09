@@ -8,18 +8,27 @@
 
 <body>
 
-  <h1>Form without Semantic HTML</h1>
+  <header>
 
+  <h1>Form without Semantic HTML</h1>
+  </header>
+
+  <div class="container">
+    <main>
   <form>
+    <section>
     <label for="fullname">Fullname: </label>
     <input type="text" id="fullname" name="fullname" required>
-
+    </section>
+    <section>
     <label for="email">Email: </label>
     <input type="email" id="email" name="email" required>
-
+    </section>
+    <section>
     <label for="password">Password: </label>
     <input type="password" id="password" name="password" required>
-
+    </section>
+      <section>
     <label for="gender">Gender: </label>
     <select id="gender" name="gender">
       <option value="">Select</option>
@@ -27,15 +36,27 @@
       <option value="female">Female</option>
       <option value="other">Other</option>
     </select>
-
+    </section>
+    <section>
     <label for="newsletter">Subscribe to Newsletter:</label>
     <input type="checkbox" id="newsletter" name="newsletter">
-
+    </section>
+    <section>
     <label for="comments">Comments:</label>
     <textarea id="comments" name="comments" rows="4"></textarea>
-
+    </section>
     <button type="submit">Submit</button>
   </form>
+    </main>
+
+    <aside>
+      <p> Welcome to Wanjiru's Space, Feel Free!!</p>
+    </aside>
+
+    <footer>
+      <p> Proudly Developed by Wanjiru</p>
+    </footer>
+  </div>
 
 </body>
 
